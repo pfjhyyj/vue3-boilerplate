@@ -1,11 +1,9 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-
-import Antd from 'ant-design-vue'
-import 'ant-design-vue/dist/reset.css'
-
+import ArcoVue from '@arco-design/web-vue'
+import '@arco-design/web-vue/dist/arco.css'
 const app = createApp(App)
-app.use(Antd)
 
+app.use(ArcoVue)
 app.mount('#app')
